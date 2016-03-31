@@ -18,7 +18,12 @@ public class Zahlen {
 		}
 		return fibonnacciRec(n) + fibonnacciRec(n-1);
 	}
-	public static long lukasArr(int n){
+	/**rden die Lukaszahlen siehe angabe berechnet.
+	 * Github: git@github.com:rsebestian/fibo19.git
+	 * Es we
+	 * @param n
+	 * @return
+	 */public static long lukasArr(int n){
 		if(n <= 0){
 			throw new NullPointerException();
 		}
